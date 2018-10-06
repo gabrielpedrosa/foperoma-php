@@ -37,13 +37,13 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active centro">
-              <img class="d-block w-50" src="img/pestalozzi01.jpg" alt="First slide">
+              <img class="tamanho" src="img/pestalozzi01.jpg" alt="First slide">
             </div>
             <div class="carousel-item centro">
-              <img class="d-block w-50" src="img/pestalozzi02.jpg" alt="Second slide">
+              <img class="tamanho" src="img/pestalozzi02.jpg" alt="Second slide">
             </div>
             <div class="carousel-item centro">
-              <img class="d-block w-50" src="img/pestalozzi03.jpg" alt="Third slide">
+              <img class="tamanho" src="img/pestalozzi03.jpg" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

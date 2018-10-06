@@ -25,7 +25,12 @@ body{
 }
 
 .centro{
-  left: 25%;
+  left: 20%;
+}
+
+.tamanho{
+  width: 610px;
+  height: 400px;
 }
 .fundobranco{
   background-color: white;
