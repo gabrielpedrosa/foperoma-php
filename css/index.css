@@ -27,7 +27,19 @@ body{
 .centro{
   left: 20%;
 }
+.login{
+  margin: 0;
+  top: 20%;
+  position: absolute;
+  left:94%;
+}
 
+a.nounderline{
+  text-decoration: none;
+}
+a:hover{
+  color:white;
+}
 .tamanho{
   width: 610px;
   height: 400px;
@@ -35,4 +47,7 @@ body{
 .fundobranco{
   background-color: white;
   background-color: transparent;
+}
+.sobre{
+  background-color: lightblue;
 }

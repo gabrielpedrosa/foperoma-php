@@ -22,10 +22,15 @@
             <a class="nav-item nav-link" href="#">Pricing</a>
             <a class="nav-item nav-link disabled" href="#">Disabled</a>
           </div>
+          <div class="collapse navbar-collapse login">
+            <button class="btn btn-outline-primary"><a class="nounderline"href="login.php">Login</a></button>
+          </div>
         </div>
+
     </nav>
+
     <div class="banner">
-      <img class="imgbanner" src="img/banner4.png">
+      <img class="imgbanner" src="img/banner.png">
     </div>
     <div class="container">
       <div class="slide">
@@ -56,6 +61,20 @@
           </a>
         </div>
       </div>
+
+      <div class="sobre">
+        <h2>Sobre</h2>
+        <P>fdsjhfsdhfffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
+      hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
+    hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
+hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
+hfffffffffffffffffffffffffffffffffffffffffffffffffffffffv
+hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
+hfffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
+
+    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
