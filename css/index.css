@@ -51,3 +51,16 @@ a:hover{
 .sobre{
   background-color: lightblue;
 }
+.escola{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin:20px;
+}
+.texto{
+  position: relative;
+  text-align: center;
+}
+p{
+  text-align: justify;
+}

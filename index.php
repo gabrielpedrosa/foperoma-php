@@ -23,7 +23,7 @@
             <a class="nav-item nav-link disabled" href="#">Disabled</a>
           </div>
           <div class="collapse navbar-collapse login">
-            <button class="btn btn-outline-primary"><a class="nounderline"href="login.php">Login</a></button>
+            <a class="nounderline"href="login.php"><button class="btn btn-outline-primary">Login</button></a>
           </div>
         </div>
 
@@ -62,19 +62,22 @@
         </div>
       </div>
 
-      <div class="sobre">
-        <h2>Sobre</h2>
-        <P>fdsjhfsdhfffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        <div class="sobre input-group">
+          <div class="col-2">
+              <img class="escola" src="img/associacao.jpg" alt="escola">
+          </div>
+          <div class="texto col-10">
+          <h2>Bem Vindo à Pestalozzi</h2>
+          <P>fdsjhfsdh fffffffffffffff fffffff ffffffffffffffffff fffffffffffffff
+           hffff f fffffffff ff fffffff fff ffffff fffffffff fffffff fffffff
+        hfffffff fffff ffffffffff fffffffffffffffffffffffffffffffff
       hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
-    hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
-  hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
-hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
-hfffffffffffffffffffffffffffffffffffffffffffffffffffffffv
-hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
-hfffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
-
-    </div>
+    hffffffffff ffffffffffff ffffffffffffffff   ffffffffffffff
+  hffff  ffffffff ffffff fffffffffffffffffffffffffffffffffffffv
+  hfffffff ffffffff ffffffffffff fffffffffffff  fffffffffffffff
+  hfff fff ffffff fff f  ffffffff fffff fff fffffffffffffffffffffff</p>
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
