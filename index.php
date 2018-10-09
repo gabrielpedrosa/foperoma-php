@@ -6,17 +6,16 @@
   <head>
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body><!--Abre Body-->
     <!--Abre Barra de Navegação-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> Foperoma</a>
+      <a class="navbar-brand" href="#"><img src="img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> Associação Pestalozzi</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="cadastroslink">
+      <div class="navbar-collapse" id="cadastroslink">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
@@ -113,11 +112,12 @@
 
         <!--Abre Galeria-->
         <div id="galeria">
-        <h1>Galeria</h1>
+        <h1 >Galeria</h1>
             <!--Abre Primeira Linha da Galeria-->
-            <div class="input-group form-group centrogaleria">
+            <div class="input-group centrogaleria">
               <!--Abre tile-->
-              <div class="col-md-4">
+              <div class="col-md-4 form-group">
+                <br>
                 <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
                   <div class="slide-front">
                     <img src="img/pestalozzi01.jpg" class="h-100 w-100">
@@ -131,8 +131,8 @@
               <!--Fecha tile-->
 
               <!--Abre tile-->
-              <div class="col-md-4">
-                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+              <div class="col-md-4 form-group">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-down">
                   <div class="slide-front">
                     <img src="img/pestalozzi01.jpg" class="h-100 w-100">
                   </div>
@@ -145,8 +145,8 @@
               <!--Fecha tile-->
 
               <!--Abre tile-->
-              <div class="col-md-4">
-                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+              <div class="col-md-4 form-group">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-left">
                   <div class="slide-front">
                     <img src="img/pestalozzi01.jpg" class="h-100 w-100">
                   </div>
@@ -161,10 +161,11 @@
             <!--Fecha Primeira Linha da Galeria-->
 
             <!--Abre Segunda Linha da Galeria-->
-            <div class="input-group form-group centrogaleria">
+            <div class="input-group centrogaleria">
               <!--Abre tile-->
-              <div class="col-md-4">
-                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+              <div class="col-md-4 form-group">
+                <br>
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-left">
                   <div class="slide-front">
                     <img src="img/pestalozzi01.jpg" class="h-100 w-100">
                   </div>
@@ -177,8 +178,8 @@
               <!--Fecha tile-->
 
               <!--Abre tile-->
-              <div class="col-md-4">
-                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+              <div class="col-md-4 form-group">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-up">
                   <div class="slide-front">
                     <img src="img/pestalozzi01.jpg" class="h-100 w-100">
                   </div>
@@ -191,7 +192,7 @@
               <!--Fecha tile-->
 
               <!--Abre tile-->
-              <div class="col-md-4">
+              <div class="col-md-4 form-group">
                 <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
                   <div class="slide-front">
                     <img src="img/pestalozzi01.jpg" class="h-100 w-100">
@@ -207,9 +208,10 @@
             <!--Fecha Segunda Linha da Galeria-->
 
             <!--Abre Terceira Linha da Galeria-->
-            <div class="input-group form-group centrogaleria">
+            <div class="input-group centrogaleria">
               <!--Abre tile-->
-              <div class="col-md-4">
+              <div class="col-md-4 form-group">
+                <br>
                 <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
                   <div class="slide-front">
                     <img src="img/pestalozzi01.jpg" class="h-100 w-100">
@@ -223,8 +225,8 @@
               <!--Fecha tile-->
 
               <!--Abre tile-->
-              <div class="col-md-4">
-                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+              <div class="col-md-4 form-group">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-up">
                   <div class="slide-front">
                     <img src="img/pestalozzi01.jpg" class="h-100 w-100">
                   </div>
@@ -237,8 +239,8 @@
               <!--Fecha tile-->
 
               <!--Abre tile-->
-              <div class="col-md-4">
-                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+              <div class="col-md-4 form-group">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-left">
                   <div class="slide-front">
                     <img src="img/pestalozzi01.jpg" class="h-100 w-100">
                   </div>
@@ -265,7 +267,30 @@
     <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <!--Fecha Scripts-->
-
+    <div id="footer">
+      <div class="input-group text-center">
+          <div class="col-md-4">
+            <h3>Patrocinadores<h3>
+              <img class="patrocinador" src="img/ifro.jpg">
+          </div>
+          <div class="col-md-4">
+            <h3>Links<h3>
+              <ul>
+                <a class="links"href=""> IFRO <a>
+              </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Gabriel<h3>
+          </div>
+      </div>
+      <div class="info text-center">
+        <br>
+        <h6>Desenvolvido por estudantes do Instituto Federal de Educação, Ciência e Tecnologia de Rondônia.
+          <br>
+          © 2018 Bootstrap</h6>
+        <br>
+      </div>
+    </div>
   </body><!--Fecha Body-->
 
 </html>
