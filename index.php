@@ -1,15 +1,16 @@
 <?php
-
+//include('conexao/conexao.php');
 ?>
 
 <!DOCTYPE html>
   <head>
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="css/index.css">
   </head>
-  <body>
-    <!-- Barra de Navegação -->
+  <body><!--Abre Body-->
+    <!--Abre Barra de Navegação-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"><img src="img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> Foperoma</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,15 +50,20 @@
             <a class="nounderline"href="login.php"><button class="btn btn-outline-primary">Login</button></a>
           </div>
         </div>
-
     </nav>
+    <!--Fecha Barra de Navegação-->
 
-    <div class="banner">
+    <!--Abre banner-->
+    <div id="banner">
       <img class="imgbanner" src="img/banner.png">
     </div>
+    <!--Fecha banner-->
+
+    <!--Abre Container-->
     <div class="container">
-      <div class="slide">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <!--Abre Slide-->
+      <div id="slide">
+        <div id="carouselExampleIndicators" class="carousel slide fundobranco" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -84,29 +90,182 @@
           </a>
         </div>
       </div>
+      <!--Fecha Slide-->
 
-        <div class="sobre input-group">
-          <div class="col-2">
-              <img class="escola" src="img/associacao.jpg" alt="escola">
-          </div>
-          <div class="texto col-10">
+      <!--Abre Sobre-->
+      <div id="sobre" class="input-group">
+        <div class="col-md-3">
+          <img class="escola" src="img/associacao.jpg" alt="escola">
+        </div>
+        <div class="texto col-md-8">
           <h2>Bem Vindo à Pestalozzi</h2>
           <P>fdsjhfsdh fffffffffffffff fffffff ffffffffffffffffff fffffffffffffff
-           hffff f fffffffff ff fffffff fff ffffff fffffffff fffffff fffffff
-        hfffffff fffff ffffffffff fffffffffffffffffffffffffffffffff
-      hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
-    hffffffffff ffffffffffff ffffffffffffffff   ffffffffffffff
-  hffff  ffffffff ffffff fffffffffffffffffffffffffffffffffffffv
-  hfffffff ffffffff ffffffffffff fffffffffffff  fffffffffffffff
-  hfff fff ffffff fff f  ffffffff fffff fff fffffffffffffffffffffff</p>
+          hffff f fffffffff ff fffffff fff ffffff fffffffff fffffff fffffff
+          hfffffff fffff ffffffffff fffffffffffffffffffffffffffffffff
+          hfffffffffffffffffffffffffffffffffffffffffffffffffffffff
+          hffffffffff ffffffffffff ffffffffffffffff   ffffffffffffff
+          hffff  ffffffff ffffff fffffffffffffffffffffffffffffffffffffv
+          hfffffff ffffffff ffffffffffff fffffffffffff  fffffffffffffff
+          hfff fff ffffff fff f  ffffffff fffff fff fffffffffffffffffffffff</p>
+          </div>
         </div>
-      </div>
-    </div>
+        <!--Fecha Sobre-->
 
+        <!--Abre Galeria-->
+        <div id="galeria">
+        <h1>Galeria</h1>
+            <!--Abre Primeira Linha da Galeria-->
+            <div class="input-group form-group centrogaleria">
+              <!--Abre tile-->
+              <div class="col-md-4">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+                  <div class="slide-front">
+                    <img src="img/pestalozzi01.jpg" class="h-100 w-100">
+                  </div>
+                  <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                    <p class="text-center">Entrada da Pestalozzi</p>
+                  </div>
+                <span class="branding-bar fg-dark">Passe o Mouse</span>
+                </div>
+              </div>
+              <!--Fecha tile-->
+
+              <!--Abre tile-->
+              <div class="col-md-4">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+                  <div class="slide-front">
+                    <img src="img/pestalozzi01.jpg" class="h-100 w-100">
+                  </div>
+                  <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                    <p class="text-center">Entrada da Pestalozzi</p>
+                  </div>
+                <span class="branding-bar fg-dark">Passe o Mouse</span>
+                </div>
+              </div>
+              <!--Fecha tile-->
+
+              <!--Abre tile-->
+              <div class="col-md-4">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+                  <div class="slide-front">
+                    <img src="img/pestalozzi01.jpg" class="h-100 w-100">
+                  </div>
+                  <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                    <p class="text-center">Entrada da Pestalozzi</p>
+                  </div>
+                <span class="branding-bar fg-dark">Passe o Mouse</span>
+                </div>
+              </div>
+              <!--Fecha tile-->
+            </div>
+            <!--Fecha Primeira Linha da Galeria-->
+
+            <!--Abre Segunda Linha da Galeria-->
+            <div class="input-group form-group centrogaleria">
+              <!--Abre tile-->
+              <div class="col-md-4">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+                  <div class="slide-front">
+                    <img src="img/pestalozzi01.jpg" class="h-100 w-100">
+                  </div>
+                  <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                    <p class="text-center">Entrada da Pestalozzi</p>
+                  </div>
+                <span class="branding-bar fg-dark">Passe o Mouse</span>
+                </div>
+              </div>
+              <!--Fecha tile-->
+
+              <!--Abre tile-->
+              <div class="col-md-4">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+                  <div class="slide-front">
+                    <img src="img/pestalozzi01.jpg" class="h-100 w-100">
+                  </div>
+                  <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                    <p class="text-center">Entrada da Pestalozzi</p>
+                  </div>
+                <span class="branding-bar fg-dark">Passe o Mouse</span>
+                </div>
+              </div>
+              <!--Fecha tile-->
+
+              <!--Abre tile-->
+              <div class="col-md-4">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+                  <div class="slide-front">
+                    <img src="img/pestalozzi01.jpg" class="h-100 w-100">
+                  </div>
+                  <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                    <p class="text-center">Entrada da Pestalozzi</p>
+                  </div>
+                <span class="branding-bar fg-dark">Passe o Mouse</span>
+                </div>
+              </div>
+              <!--Fecha tile-->
+            </div>
+            <!--Fecha Segunda Linha da Galeria-->
+
+            <!--Abre Terceira Linha da Galeria-->
+            <div class="input-group form-group centrogaleria">
+              <!--Abre tile-->
+              <div class="col-md-4">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+                  <div class="slide-front">
+                    <img src="img/pestalozzi01.jpg" class="h-100 w-100">
+                  </div>
+                  <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                    <p class="text-center">Entrada da Pestalozzi</p>
+                  </div>
+                <span class="branding-bar fg-dark">Passe o Mouse</span>
+                </div>
+              </div>
+              <!--Fecha tile-->
+
+              <!--Abre tile-->
+              <div class="col-md-4">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+                  <div class="slide-front">
+                    <img src="img/pestalozzi01.jpg" class="h-100 w-100">
+                  </div>
+                  <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                    <p class="text-center">Entrada da Pestalozzi</p>
+                  </div>
+                <span class="branding-bar fg-dark">Passe o Mouse</span>
+                </div>
+              </div>
+              <!--Fecha tile-->
+
+              <!--Abre tile-->
+              <div class="col-md-4">
+                <div data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+                  <div class="slide-front">
+                    <img src="img/pestalozzi01.jpg" class="h-100 w-100">
+                  </div>
+                  <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                    <p class="text-center">Entrada da Pestalozzi</p>
+                  </div>
+                <span class="branding-bar fg-dark">Passe o Mouse</span>
+                </div>
+              </div>
+              <!--Fecha tile-->
+            </div>
+            <!--Fecha Terceira Linha da Galeria-->
+
+        </div>
+        <!--Fecha Galeria-->
+    </div>
+    <!--Fecha Container-->
+
+    <!--Abre Scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-  </body>
+    <!--Fecha Scripts-->
+
+  </body><!--Fecha Body-->
 
 </html>
