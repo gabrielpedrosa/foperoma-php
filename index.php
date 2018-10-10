@@ -9,7 +9,7 @@ include('conexao/conexao.php');
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body><!--Abre Body-->
-    <!--Abre Barra de Navegação-->
+    <!--Abre Barra de Navegaçã o-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"><img src="img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> Associação Pestalozzi</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
