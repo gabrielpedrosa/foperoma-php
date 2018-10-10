@@ -285,7 +285,7 @@ include('conexao/conexao.php');
       </div>
       <div class="info text-center">
         <br>
-        <h6>Desenvolvido por estudantes do Instituto Federal de Educação, Ciência e Tecnologia de Rondônia.
+        <h6>Desenvolvido por estudantes do Instituto Federal de Educação, Ciência e Tecnologia de Rondônia .
           <br>
           © 2018 Bootstrap</h6>
         <br>
