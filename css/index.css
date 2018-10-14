@@ -2,7 +2,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: Gainsboro;
+  background-color: gainsboro;
 }
 /*DIVS */
 #login{
@@ -24,12 +24,10 @@ body{
   margin-top: 10px;
   margin-bottom: 20px;
   background-color: transparent;
-
 }
 #sobre{
   background-color: lightblue;
 }
-
 #galeria{
   padding-left: 50px;
   padding-right: 50px;
@@ -59,10 +57,25 @@ body{
   left: 20%;
 }
 .centrogaleria{
-  left:8%;
-
+  left:1%;
 }
-
+.ico{
+  left:50%;
+}
+.darkblue{
+  background-color: MidnightBlue;
+}
+.abranco{
+  color:white;
+  font-size: 15px;
+}
+.abbranco{
+  color:white;
+  font-size: 20px;
+}
+.top{
+  top:10%;
+}
 
 a.nounderline{
   text-decoration: none;
